@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(22, 163, 74, 0.3), rgba(0, 0, 0, 0.5)),
                 url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=2000') center/cover no-repeat fixed;
     min-height: 100vh;
     display: flex;
@@ -22,12 +22,12 @@ body {
 }
 
 .content {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(15px);
     border-radius: 20px;
     padding: 60px 40px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(34, 197, 94, 0.3);
+    border: 2px solid rgba(74, 222, 128, 0.5);
     text-align: center;
 }
 
@@ -67,7 +67,8 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: 700;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(34, 197, 94, 0.6), 0 0 20px rgba(74, 222, 128, 0.4);
 }
 
 .subtitle {
@@ -88,6 +89,8 @@ h1 {
     font-size: 1.5rem;
     margin-bottom: 30px;
     font-weight: 600;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(74, 222, 128, 0.5);
 }
 
 .social-links {
@@ -100,8 +103,8 @@ h1 {
 }
 
 .social-box {
-    background: rgba(255, 255, 255, 0.15);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(134, 239, 172, 0.4);
     border-radius: 15px;
     padding: 25px 20px;
     text-decoration: none;
@@ -117,9 +120,9 @@ h1 {
 
 .social-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    background: rgba(255, 255, 255, 0.25);
-    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(74, 222, 128, 0.8);
 }
 
 .social-box i {
@@ -131,15 +134,15 @@ h1 {
     font-weight: 500;
 }
 
-/* Sosyal medya renk efektleri */
+/* Sosyal medya renk efektleri - Yeşil ve Beyaz Tema */
 .social-box.facebook:hover {
-    background: linear-gradient(135deg, #3b5998, #8b9dc3);
-    border-color: #3b5998;
+    background: linear-gradient(135deg, #22c55e, #86efac);
+    border-color: #4ade80;
 }
 
 .social-box.instagram:hover {
-    background: linear-gradient(135deg, #e1306c, #f77737, #fcaf45);
-    border-color: #e1306c;
+    background: linear-gradient(135deg, #16a34a, #4ade80);
+    border-color: #22c55e;
 }
 
 /* Responsive tasarım */
